@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>算法设计与分析复习	第二版</title>
+		<style type="text/css">
+			*{
+				margin-left: 3.125rem;
+				margin-right: 3.125rem;
+			}
+			.Chapter{
+				margin: 0;
+				background-color: beige;
+				border-bottom: darkgrey 10px solid;
+				margin-top: 0;
+				
+			}
+			h1{
+				margin-top: 0;
+			}
+			.red{
+				color: red;
+			}
+			li{
+				width: 800px;
+			}
+			
+		</style>
+	</head>
+	<body>
+		<div class="Chapter">
+			<h1>第一章</h1>
+			<h2>什么是算法</h2>
+			<li>算法是求救问题的一系列计算步骤，用来将输入数据转换成输出结果的</li>
+			<h2>算法设计满足的目标</h2>
+			<li>正确性、可使用性、可读性、健壮性、高效率与低存储</li>
+			<h2>算法具有五个特征</h2>
+			<li>输入性、输出性、可行性、确定性、有限性</li>
+			
+			<h2>1.4</h2>
+			
+			<ul>
+				<li>1</li>
+				<li>2</li>
+				<li>5(1)</li>
+			</ul>
+		</div>
+		
+		<div class="Chapter">
+			<h1>第二章</h1>
+			<h2>递归算法设计技术</h2>
+			<h2>什么是递归</h2>
+			<ul>
+				<li>递归是指在函数定义中又调用函数自身的方法</li>
+				<li>若在p函数中定义调用p函数称为直接调用</li>
+				<li>若在p函数中定义调用q函数，q函数又定义调用p函数，称为间接调用</li>
+			</ul>
+			
+			
+		</div>
+
+		<div class="Chapter">
+			<h1>第三章</h1>
+			<h2>分治法</h2>
+			<p>分治法的设计思想: </p>
+				<ol class="red">
+					将一个难以直接解决的大问题，
+					分割成一些规模较小的相同问题，
+					以便各个击破，分而治之。
+				</ol>
+			<h2>分治法能解决问题的特征</h2>
+			<ul>
+				<li>该问题的规模缩小到一定的程度就可以容易地解决；</li>
+				<li>该问题可以分解为若干个规模较小的相同问题，即该问题具有最优子结构性质</li>
+				<li>利用该问题分解出的子问题的解可以合并为该问题的解；(重要条件！)</li>
+				<li>该问题所分解出的各个子问题是相互独立的，即子问题之间不包含公共的子问题。</li>
+			</ul>
+			<h2>递归</h2>
+			<ul>
+				<li>直接或间接地调用自身的算法称为递归算法。用函数自身给出定义的函数称为递归函数。</li>
+				<li>每个递归函数必须有非递归定义的初始值</li>
+				<li>边界条件与递归方程是递归函数的二个要素，递归函数只有具备了这两个要素，才能在有限次计算后得出结果</li>
+			</ul>
+			<h2>二分搜索(找出中间元素比对，二分搜索数组)</h2>
+			<ul>
+				<li>算法复杂度分析：每执行一次算法的while循环， 待搜索数组的大小减少一半。因此，在最坏情况下，while循环被执行了O(logn) 次。循环体内运算需要O(1) 时间，因此整个算法在最坏情况下的计算时间复杂性为O(logn) 。</li>
+			</ul>
+			<h2>快速排序</h2>
+			<ul>
+				<li>最坏时间复杂度： O(n2). 平均时间复杂度： O(nlogn). 辅助空间： O(n)或O(logn)</li>
+			</ul>		
+		</div>
+		
+		<div class="Chapter">
+			<h1>第三章</h1>
+			<h2>动态规划</h2>
+			<h2>矩阵连乘</h2>
+			<h2>0-1背包（动态规划）</h2>
+			<h2>最优二叉树</h2>
+			<h2>贪心算法</h2>
+			
+		</div>
+		
+		
+		
+		<div class="Chapter">
+			<h1>第五章</h1>
+			
+		</div>
+		
+		<div class="Chapter">
+			<h1>第六章</h1>
+			
+		</div>
+		
+		<div class="Chapter">
+			<h1>第七章</h1>
+			
+		</div>
+		
+		<div class="Chapter">
+			<h1>第八章</h1>
+			
+		</div>
+		
+		
+		
+		<div id="Chapter">
+			
+		</div>
+		
+	</body>
+</html>
